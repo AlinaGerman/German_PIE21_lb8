@@ -13,20 +13,25 @@
     font-family:'Courgette', sans-serif
 }
 .post {
-    background-color:paleturquoise;
+    background-color:#daf6fd;
     border: 12px double rgb(37, 34, 216);
-    margin: 2% 1%;
+    margin: 1% 1%;
     flex-grow: 1;
 }
 .posts {
     display: flex;
     flex-wrap: wrap;
 }
+.author {
+    font-size: 120%;
+    margin-left: 1%;
+    font-family:'Courgette', sans-serif
+}
 header {
     font-family:'Courgette', sans-serif;
     text-align: center;
     font-size: 200%;
-    background-color:lightgreen;
+    background-color:#ecc3f0;
     border-bottom: 6px solid rgb(37, 34, 216);
 }
 h1 {
@@ -34,12 +39,13 @@ h1 {
 }
 body {
     margin: 0%;
+    background-color: rgb(247, 225, 241);
 }
 footer {
     font-family:'Courgette', sans-serif;
     font-size: 100%;
     margin: 0%;
-    background-color:lightgreen;
+    background-color:#ecc3f0;
     border-top: 6px solid rgb(37, 34, 216);
 }
 .text_footer {
