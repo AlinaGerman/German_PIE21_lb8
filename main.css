@@ -18,6 +18,10 @@
     margin: 1% 1%;
     flex-grow: 1;
 }
+.post:hover {
+	background-color: rgb(250, 205, 240);
+	border: 12px ridge #7a5db4;
+}
 .posts {
     display: flex;
     flex-wrap: wrap;
@@ -32,7 +36,7 @@ header {
     text-align: center;
     font-size: 200%;
     background-color:#bdffdb;
-    border-bottom: 6px solid #7a5db4;
+    border-bottom: 8px solid #7a5db4;
 }
 h1 {
     margin: 0%;
@@ -46,7 +50,7 @@ footer {
     font-size: 100%;
     margin: 0%;
     background-color:#bdffdb;
-    border-top: 6px solid #7a5db4;
+    border-top: 8px solid #7a5db4;
 }
 .text_footer {
     margin: 0%;
