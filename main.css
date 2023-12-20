@@ -1,0 +1,47 @@
+@font-face{
+    font-family: 'Courgette';
+    src: url('Courgette-Regular.ttf') format('truetype');
+    }
+@font-face{
+    font-family: 'PermanentMarker';
+    src: url('PermanentMarker-Regular.ttf') format('truetype');
+    }
+.text_post{
+    font-size: 140%;
+    text-align: center;
+    font-family:'Courgette', sans-serif
+}
+.text_title_post{
+    font-size: 180%;
+    text-align: center;
+    font-family:'Courgette', sans-serif
+}
+.post{
+    background-color:paleturquoise;
+    border: 3px solid rgb(37, 34, 216);
+    
+    margin: 2% 1%;
+}
+header{
+    font-family:'Courgette', sans-serif;
+    text-align: center;
+    font-size: 200%;
+    background-color:lightgreen;
+    border-bottom: 8px solid rgb(37, 34, 216);
+}
+h1{
+    margin: 1%;
+}
+body{
+    background-color:lightgreen;
+    margin: 0%;
+}
+footer{
+    font-family:'Courgette', sans-serif;
+    font-size: 100%;
+    margin: 0%;
+    border-top: 8px solid rgb(37, 34, 216);
+}
+.text_footer{
+    margin: 1%;
+}
