@@ -3,7 +3,7 @@
     src: url('Courgette-Regular.ttf') format('truetype');
     }
 * {
-    box-sizing: border-box;
+    box-sizing: border-box; /*позволяет включать отступ и границу в общую ширину и высоту элементов.*/
 }
 .text_post {
     font-size: 160%;
@@ -28,10 +28,10 @@
     margin: 0.5% 1%;
     flex-grow: 1;
 }
-.post:hover {
+.post:hover { /*Изменение границ при наведении мыши*/
 	border: 15px ridge #7a5db4;
 }
-@media screen and (max-width:600px) {
+@media screen and (max-width:600px) { /*Отзывчивый макет - делает колонки стек поверх друг друга, а не рядом друг с другом*/
     .text_title_post {
         width: 100%;
     }
