@@ -7,14 +7,14 @@
 }
 .text_post {
     font-size: 160%;
-    padding: 1%;
+    padding: 0% 1%;
     font-family:'Courgette', sans-serif;
     float: right;
     width:57%;
 }
 .text_title_post {
     font-size: 180%;
-    padding: 1%;
+    padding: 0% 1%;
     font-family:'Courgette', sans-serif;
     float: left;
     width: 40%;
@@ -25,7 +25,7 @@
     clear: both;
     background-color:#c6fff9;
     border: 15px double #7a5db4;
-    margin: 1% 1%;
+    margin: 0.5% 1%;
     flex-grow: 1;
 }
 .post:hover {
@@ -62,7 +62,6 @@ body {
 }
 footer {
     font-family:'Courgette', sans-serif;
-    
     margin: 0%;
     background-color:#bdffdb;
     border-top: 10px solid #7a5db4;
@@ -70,5 +69,5 @@ footer {
 .text_footer {
     margin: 0%;
     padding: 1% 2%;
-    font-size: 125%;
+    font-size: 105%;
 }
