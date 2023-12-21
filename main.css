@@ -2,41 +2,55 @@
     font-family: 'Courgette';
     src: url('Courgette-Regular.ttf') format('truetype');
     }
+* {
+    box-sizing: border-box;
+}
 .text_post {
-    font-size: 140%;
-    margin-left: 1%;
-    font-family:'Courgette', sans-serif
+    font-size: 160%;
+    padding: 1%;
+    font-family:'Courgette', sans-serif;
+    float: right;
+    width:57%;
 }
 .text_title_post {
     font-size: 180%;
-    margin-left: 1%;
-    font-family:'Courgette', sans-serif
+    padding: 1%;
+    font-family:'Courgette', sans-serif;
+    float: left;
+    width: 40%;
 }
 .post {
+    content: "";
+    display: table;
+    clear: both;
     background-color:#c6fff9;
-    border: 12px double #7a5db4;
+    border: 15px double #7a5db4;
     margin: 1% 1%;
     flex-grow: 1;
 }
 .post:hover {
-	background-color: rgb(250, 205, 240);
-	border: 12px ridge #7a5db4;
+	border: 15px ridge #7a5db4;
+}
+@media screen and (max-width:600px) {
+    .text_title_post {
+        width: 100%;
+    }
+}
+@media screen and (max-width:600px) {
+    .text_post {
+        width: 100%;
+    }
 }
 .posts {
     display: flex;
     flex-wrap: wrap;
-}
-.author {
-    font-size: 120%;
-    margin-left: 1%;
-    font-family:'Courgette', sans-serif
 }
 header {
     font-family:'Courgette', sans-serif;
     text-align: center;
     font-size: 200%;
     background-color:#bdffdb;
-    border-bottom: 8px solid #7a5db4;
+    border-bottom: 10px solid #7a5db4;
 }
 h1 {
     margin: 0%;
@@ -50,7 +64,7 @@ footer {
     font-size: 100%;
     margin: 0%;
     background-color:#bdffdb;
-    border-top: 8px solid #7a5db4;
+    border-top: 10px solid #7a5db4;
 }
 .text_footer {
     margin: 0%;
